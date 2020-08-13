@@ -24,14 +24,6 @@ exports.run = (client, message, params) => {
 : blue_small_square: | bulanık : Avatarını bulanık bir şekilde gösterir.
 : blue_small_square: | wasted : Wasdetlenirsiniz.
 : blue_small_square: | Prefix: A!**
-const Discord = require('discord.js');
-
-exports.run = (client, message, params) => {
-  const embed = new Discord.RichEmbed()
- .setAuthor(`Yardım`, client.user.avatarURL)
-  .setColor("BLUE")
-  .addField("Komut Kategorileri",`
-
 
 `)
 .setFooter(`${message.author.username} tarafından istendi.`, message.author.avatarURL)
